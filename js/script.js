@@ -13,3 +13,21 @@ todos.push('item 5');
 todos[0] = 'item 1 updated';
 todos.splice(0, 1);
 // .splice(position, # of items to delete) removes array elements
+// ---------------------------------
+
+// V2 Requirements
+// -It should have a function to display todos
+// -It should have a function to add todos
+// -It should have a function to change todos
+// -It should have a function to delete todos
+
+var todos = ['item 1', 'item 2', 'item 3'];
+function displayTodos(todos){
+	console.log('My Todos: ', todos);
+}
+displayTodos('Eat Breakfast');
+// ----------------------------
+function addTodos(todos){
+	todos.push(todo);
+	displayTodos();
+}
