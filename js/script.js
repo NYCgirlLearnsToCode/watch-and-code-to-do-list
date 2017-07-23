@@ -22,12 +22,22 @@ todos.splice(0, 1);
 // -It should have a function to delete todos
 
 var todos = ['item 1', 'item 2', 'item 3'];
-function displayTodos(todos){
+function displayTodos(){
 	console.log('My Todos: ', todos);
 }
-displayTodos('Eat Breakfast');
-// ----------------------------
-function addTodos(todos){
+displayTodos();
+
+function addTodo(todo) {
 	todos.push(todo);
+	displayTodos();
+}
+
+function changeTodo(position, newValue){
+	todos[position] = newValue;
+	displayTodos();
+}
+
+function deleteTodo(position){
+	todos.splice(position,1);
 	displayTodos();
 }
