@@ -1,4 +1,4 @@
-//To List from watch and code tutorial
+//To Do List from Gordon Zhu's watch and code tutorial
 /*
 V1 Requirements
 -it should a place to store todos
